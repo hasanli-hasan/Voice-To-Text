@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 530px;
+    background: rgb(209, 209, 209);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.box{
+    width:48%;
+    height: 100%;
+    border-right: 2px solid black;
+    overflow-y: scroll;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+   background: rgb(124, 124, 124);
+   border:none;
+   outline: none;
+   margin-left: 4px;
+}
+
+.fas{
+    font-size: 25px;
+    margin: 0px 15px;
+}
+
+.onRecording{
+    color: red;
+}
+
+.fa-stop{
+    color: red;
+}
+
+p{
+    padding-top: 20px;
+    padding-left: 16px;
+    font-size: 22px;
+}
